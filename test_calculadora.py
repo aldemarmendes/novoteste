@@ -1,23 +1,16 @@
 import pytest
 
-from result import numero1
-from result import numero2
-from result import operacao
+from result import soma, sub, mult, div
 
-if operacao == '+':
-    print(numero1, " + ",  numero2, " = ", numero1 + numero2)
+def test_calculadora:
     
-
-elif operacao == '-':
-    print(numero1, " - ",  numero2, " = ", numero1 - numero2)
- 
-elif operacao == '*':
-    print(nuemro1, " * ", numero2, " = ", numero1 * numero2)
-
-elif operacao == '/':
-    print(numero1, " / ", numero, " = ", numero1 / numero2)
-
-else:
-    print("Operador não foi encontrado .... ")
+    assert soma(6) + 7 == 13
+    assert sub (6) - 6 == 0
+    assert mult(7) * 2 == 14
+    assert div (4) / 2 == 2
+    
+    
+    
+    
 
 
