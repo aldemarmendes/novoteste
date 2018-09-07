@@ -14,7 +14,7 @@ def mult(num1, num2):
     return None
 def div(num1, num2):
     try:
-        return float(num1) * float(num2)
+        return float(num1) / float(num2)
     return None
         
     
