@@ -1,20 +1,18 @@
-def soma(num1,num2):
-    try:
-        return float(num1) + float(num2)
-               except:
-            return None
-def sub(num1,num2):
-    try:
-        return float(num1) - float(num2)
-               except:
-            return None
-def mult(num1, num2):
-    try:
-        return float(num1) * float (num2)
-    return None
-def div(num1, num2):
-    try:
-        return float(num1) / float(num2)
-    return None
-        
+def soma(x,z):
+
+        return float(x) + float (z)
+
+
+def sub(x,z):
+
+        return float(x) - float (z)
+
+def mult(x,z):
+
+       return float(x) * float(z)
+
+
+def div(x,z):
+
+        return float (x) / float (z)
     
