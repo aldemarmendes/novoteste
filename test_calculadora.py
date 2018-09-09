@@ -6,6 +6,7 @@ def test_calculadora():
     
     assert soma(6,7) == 13
     assert sub (6,6) == 0
+    assert sub (4,2) == 2
     assert mult(7,2) == 14
     assert div (4,2) == 2
     
