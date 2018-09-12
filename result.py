@@ -1,6 +1,9 @@
 def soma(x,z):
-
-        return float(x) + float (z)
+        try:
+                soma = float(x) + float (z)
+                return soma
+        except:                 
+                return None
 
 
 def sub(x,z):
