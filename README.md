@@ -1,2 +1,2 @@
 # novoteste
-![Build Status](https://travis-ci.org/aldemarmendes/novoteste.svg?branch=master)](https://travis-ci.org/aldemarmendes/novoteste)
+![Build Status](https://travis-ci.org/aldemarmendes/novoteste.svg?branch=master)]
